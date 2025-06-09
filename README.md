@@ -33,7 +33,7 @@
 <h2 id="instalación">Instalación</h2>
 <ol>
     <li>Clona el repositorio:
-        <pre><code>git clone https://github.com/tu-usuario/loveDNS.git</code></pre>
+        <pre><code>git clone https://github.com/Puerto4445/loveDNS.git</code></pre>
     </li>
     <li>Navega al directorio del proyecto:
         <pre><code>cd loveDNS</code></pre>
