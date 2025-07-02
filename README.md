@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>LoveDNS ❤️</h1>
+<h1>LoveDNS</h1>
 <p>Hecho para explorar las consultas DNS en tu red. Una herramienta para ver qué dominios se visitan en tiempo real.</p>
 
 <h2>Tabla de Contenidos</h2>
