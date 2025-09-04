@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>LoveDNS</h1>
+<h1>LoveDNS 🕵️‍♂️</h1>
 <p>LoveDNS is a network monitoring tool designed to observe and decrypt DNS (Domain Name System) traffic on a network.
 Whether you are a network architect, cybersecurity specialist, or curious enthusiast, LoveDNS empowers you to gain deep insights into DNS requests, identify unusual behavior, and enhance the security of your infrastructure.</p>
 
