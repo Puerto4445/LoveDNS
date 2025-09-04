@@ -3,7 +3,8 @@
 <body>
 
 <h1>LoveDNS</h1>
-<p>Hecho para explorar las consultas DNS en tu red. Una herramienta para ver qué dominios se visitan en tiempo real.</p>
+<p>LoveDNS is a network monitoring tool designed to observe and decrypt DNS (Domain Name System) traffic on a network.
+Whether you are a network architect, cybersecurity specialist, or curious enthusiast, LoveDNS empowers you to gain deep insights into DNS requests, identify unusual behavior, and enhance the security of your infrastructure.</p>
 
 <h2>Tabla de Contenidos</h2>
 <ul>
@@ -11,8 +12,6 @@
     <li><a href="#requisitos">Requisitos</a></li>
     <li><a href="#instalación">Instalación</a></li>
     <li><a href="#uso">Uso</a></li>
-    <li><a href="#contribución">Contribución</a></li>
-    <li><a href="#licencia">Licencia</a></li>
 </ul>
 
 <h2 id="descripción">Descripción</h2>
@@ -27,24 +26,25 @@
 <h2 id="requisitos">Requisitos</h2>
 <ul>
     <li>Python 3.x</li>
-    <li>Biblioteca Scapy</li>
+    <li>Scapy</li>
+    <li>colorama</li>
 </ul>
 
 <h2 id="instalación">Instalación</h2>
 <ol>
     <li>Clona el repositorio:
-        <pre><code>git clone https://github.com/Puerto4445/loveDNS.git</code></pre>
+        <pre><code>git clone https://github.com/Puerto4445/LoveDNS.git</code></pre>
     </li>
     <li>Navega al directorio del proyecto:
         <pre><code>cd loveDNS</code></pre>
     </li>
     <li>Instala las dependencias:
-        <pre><code>pip install scapy</code></pre>
+        <pre><code>pip install -r requirements.txt</code></pre>
     </li>
 </ol>
 
 <h2 id="uso">Uso</h2>
 <p>El script necesita permisos de administrador para capturar paquetes de la red. Antes de ejecutar, asegúrate de que la variable <code>interface</code> dentro del script coincida con tu interfaz de red (ej. "eth0", "wlan0", "Wi-Fi").</p>
 <p>Para ejecutar el script, utiliza el siguiente comando:</p>
-<pre><code>sudo python loveDNS.py</code></pre>
+<pre><code>sudo python LoveDNS_Monitor.py</code></pre>
 <p>El script comenzará a mostrar los dominios detectados en la consola.</p>
