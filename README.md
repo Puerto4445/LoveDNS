@@ -22,7 +22,7 @@ Whether you are a network architect, cybersecurity specialist, or curious enthus
     <li><strong>Filtrado Inteligente:</strong> Ignora dominios de servicios en segundo plano para reducir el ruido.</li>
     <li><strong>Salida Limpia:</strong> Muestra cada dominio único solo una vez durante la sesión.</li>
 </ul>
-
+<img width="1125" height="522" alt="Captura desde 2025-09-03 22-39-28" src="https://github.com/user-attachments/assets/3fb1824d-f2bb-4d36-a908-63b5f7f178c3" />
 <h2 id="requisitos">Requisitos</h2>
 <ul>
     <li>Python 3.x</li>
