@@ -1,6 +1,22 @@
 import scapy.all as scapy
 import argparse
 from termcolor import colored
+from pyfiglet import Figlet
+import subprocess
+
+def Show_Banner(text):
+    figlet = Figlet(font="smslant")
+    ascii_art = figlet.renderText(text)
+    try:
+        lolcat_process = subprocess.Popen(['lolcat'], stdin=subprocess.PIPE)
+        lolcat_process.communicate(input=ascii_art.encode())
+    except FileNotFoundError:
+        print(ascii_art)
+
+def Banner():
+    Show_Banner("LOVEDNS")
+    print("@puerto4444")
+    print("-"*30)
 
 def DNS_Packet(packet):
     """
@@ -47,6 +63,7 @@ def Get_Argument():
 
 def main():
     try:
+        Banner()
         global domain_repeat
         domain_repeat = set()
         interface = Get_Argument()
